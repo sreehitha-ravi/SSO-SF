@@ -27,7 +27,9 @@ module.exports = function (passport, config) {
 				username : profile.username,
 				displayName: profile.fullname,
 				nickname: profile.nickname,
-			        UserName: profile.UserName,
+			        USERNAME: profile.USERNAME,
+				roles: profile.roles,
+				customfield: profile.customfield,
 			});
 	  })
 	);
