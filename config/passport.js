@@ -27,7 +27,10 @@ module.exports = function (passport, config) {
 				username : profile.username,
 				displayName: profile.fullname,
 				nickname: profile.nickname,
-			        USERNAME: profile.USERNAME,
+			        email: profile.email,
+				Email: profile.Email,
+				first_name: profile.first_name,
+				last_name: profile.last_name,
 				roles: profile.roles,
 				customfield: profile.customfield,
 			});
